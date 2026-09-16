@@ -1,0 +1,1 @@
+A simple, command-line-based CGPA Calculator written in C++. This program allows students to input their course grades and credit hours, validates the inputs, and computes their final Cumulative Grade Point Average (CGPA) along with a detailed summary breakdown.
