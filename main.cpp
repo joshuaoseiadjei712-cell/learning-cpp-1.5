@@ -7,12 +7,12 @@ struct Course {
 };
 
 int main() {
-    int numCourses;
+    int numberofCourses;
     cout << "Enter the number of courses: ";
     cin >> numCourses;
 
 
-    if (numCourses <= 0 || numCourses > 100) {
+    if (numberofCourses <= 0 || numberofCourses > 100) {
         cout << "Please enter a valid number of courses between 1 and 100." << endl;
         return 1;
     }
@@ -40,7 +40,7 @@ int main() {
     cout << "\n===================================" << endl;
     cout << "          COURSE SUMMARY           " << endl;
     cout << "===================================" << endl;
-    for (int i = 0; i < numCourses; ++i) {
+    for (int i = 0; i < numberofCourses; ++i) {
         cout << "Course " << (i + 1)
              << " | Grade: " << courses[i].grade
              << " | Credits: " << courses[i].creditHours << endl;
